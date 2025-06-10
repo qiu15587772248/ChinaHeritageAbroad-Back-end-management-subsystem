@@ -1,0 +1,15 @@
+    /* 主要的颜色变量 */
+    $--color-primary: #AF8F6D;
+
+    /* 更多的 Element UI 变量可以在这里覆盖 */
+    /* 例如，修改成功、警告、危险、信息的颜色 */
+    // $--color-success: #529b2e;
+    // $--color-warning: #b88230;
+    // $--color-danger: #c45656;
+    // $--color-info: #767a82;
+
+    /* 改变 Element UI 组件的默认字体，如果需要的话 */
+    // $--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+    /* 引入 Element UI 的 mixins 和变量文件，但只引入变量，不引入实际样式 */
+    @import "element-ui/packages/theme-chalk/src/common/var";

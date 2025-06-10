@@ -1,0 +1,6 @@
+    /* 覆盖 Element UI 变量 */
+    @import "./element-variables.scss";
+
+    /* 引入 Element UI 的核心样式 */
+    /* 注意：这里我们引入的是 element-ui 的 SCSS 源文件，而不是编译后的 CSS */
+    @import "element-ui/packages/theme-chalk/src/index";
